@@ -1,1 +1,128 @@
- 
+body {
+  background-color: #d6af70;
+  color: #fff;
+
+  background-image: url(./images/mountain-skyline.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: normal;
+}
+
+/* containers */
+
+.container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Search bar */
+
+hero {
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hero h1,
+hero p{
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.66);
+}
+
+hero h1{
+  font-size: 3rem;
+  margin-bottom: .125em;
+  text-align: center;
+  /* min-width: 615px; */
+}
+
+hero p{
+  font-size: 1.5rem;
+  margin: 0 0 3em
+}
+
+hero input{
+  font-size: 1.5rem;
+  width: 50%;
+  padding: .5em 1em;
+  max-width: 500px;
+  line-height: 2em;
+  border-radius: 1.75em;
+  margin-bottom: 2em;
+}
+
+hero .search-bar-group{
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+}
+
+hero .hero-btn{
+  font-size: 1rem;
+  border-radius: 1.75em;
+  padding: 1em 2.25em;
+  margin: 0 1em;
+}
+
+
+
+
+
+/* Search Container */
+
+.search-container *{
+  color:#e1caca
+} 
+
+.search-container .search-link {
+  color: rgb(43, 113, 252);
+}
+
+.search-container .search-link:hover,
+.search-container .search-link:active{
+  cursor: pointer;
+  color: rgba(43, 113, 252, 0.7);
+}
+
+.search-container .search-link:visited{
+  color: #9c9a9a;
+}
+
+
+
+/* .search-container .search-link {
+  color: rgb(0, 85, 255);
+}
+
+.search-container .search-link:hover,
+.search-container .search-link:active{
+  cursor: pointer;
+  color: rgba(0, 85, 255, 0.544);
+} */
+
+h1:hover {
+  cursor: pointer;
+  color: blue;
+}
+h1 {
+}
+
+#searchResults,
+#time {
+  visibility: hidden;
+}
+
+/* Media Queries */
+
+@media (max-width: 750px){
+  hero .search-bar-group{
+    flex-direction: column;
+  }
+
+  hero .hero-btn{
+    padding: .5em 1.25em;
+    margin-bottom: 1em
+  }
+}

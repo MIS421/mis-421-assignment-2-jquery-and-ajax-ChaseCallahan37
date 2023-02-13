@@ -1,3 +1,7 @@
+API URL: https://management.azure.com/
+Subscription ID: 1afc3365-15fe-40fb-bb3b-efcb4e6dc9f6
+Key: 54344b7a180c491bb6a078ef31bb20ef
+
 # MIS 421 Assignment 2: JQuery and AJAX
 
 >For this assignment, you will be creating a Bing Search API using your Microsoft Azure account and using it to construct a simple web search site. Follow these steps to create the Search API:
